@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bookmarker", "Bookmarker\Bookmarker.csproj", "{B0FEAC96-B0D0-45F5-8C87-89BB43F57B68}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{84C21745-D981-4210-AA0A-B3C0D80BBA62}"
+	ProjectSection(SolutionItems) = preProject
+		UnitTests.testsettings = UnitTests.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bookmarker_UnitTests", "Bookmarker\Bookmarker_UnitTests\Bookmarker_UnitTests.csproj", "{7ACDB622-3D37-4F52-8164-B8E0F21A02A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0FEAC96-B0D0-45F5-8C87-89BB43F57B68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0FEAC96-B0D0-45F5-8C87-89BB43F57B68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0FEAC96-B0D0-45F5-8C87-89BB43F57B68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0FEAC96-B0D0-45F5-8C87-89BB43F57B68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7ACDB622-3D37-4F52-8164-B8E0F21A02A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ACDB622-3D37-4F52-8164-B8E0F21A02A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ACDB622-3D37-4F52-8164-B8E0F21A02A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7ACDB622-3D37-4F52-8164-B8E0F21A02A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
