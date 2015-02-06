@@ -1,2 +1,4 @@
 # bookmarker
-VisualStudio Package 
+Easier bookmark renaming
+
+VisualStudio Package
