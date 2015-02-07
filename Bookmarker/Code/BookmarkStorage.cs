@@ -24,7 +24,7 @@ namespace Bookmarker.Code
         #endregion
 
         #region Properties
-        //string = base64encoding
+      
         private static SolutionBookmarkPositions _bookmarkPositions = null;
         public SolutionBookmarkPositions BookmarkPositions
         {
@@ -76,7 +76,7 @@ namespace Bookmarker.Code
             }
         }
 
-        private SolutionBookmarkPositions ReadPositions()
+        public SolutionBookmarkPositions ReadPositions()
         {
             FileStream fileStream = new FileStream(positionsFullName, FileMode.OpenOrCreate, FileAccess.Read);
             using (StreamReader reader = new StreamReader(fileStream))

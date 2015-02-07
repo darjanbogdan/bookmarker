@@ -11,7 +11,6 @@ namespace Bookmarker.Code
     {
         #region Properties
 
-        //string = base64encoding
         private SolutionBookmarkPositions _bookmarkPositions = null;
         private SolutionBookmarkPositions BookmarkPositions
         {
@@ -79,7 +78,7 @@ namespace Bookmarker.Code
         
         public void UpdateDocumentPositions(string key, int position)
         {
-            if(!String.IsNullOrEmpty(key) && position >= 0)
+            if(!String.IsNullOrEmpty(key) && position > 0)
             {
                 DocumentBookmarkPositions documentPositions = GetDocumentPositions(key);
                 if(documentPositions != null && documentPositions.BookmarkPositions != null && !documentPositions.BookmarkPositions.Contains(position))
